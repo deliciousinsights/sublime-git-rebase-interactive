@@ -1,0 +1,32 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+name: Git Interactive Rebase
+scopeName: source.git-interactive-rebase
+fileTypes: ['git-rebase-todo']
+uuid: f72acbdd-ae83-42dc-ac34-4c7173f3d6e8
+
+patterns:
+- comment: Pick keyword
+  name: keyword.pick.git-interactive-rebase
+  match: ^\s*p(?:ick)?\b
+- comment: Fixup keyword
+  name: keyword.fixup.git-interactive-rebase
+  match: ^\s*f(?:ixup)?\b
+- comment: Squash keyword
+  name: keyword.squash.git-interactive-rebase
+  match: ^\s*s(?:quash)?\b
+- comment: Reword keyword
+  name: keyword.reword.git-interactive-rebase
+  match: ^\s*r(?:eword)?\b
+- comment: Edit keyword
+  name: keyword.edit.git-interactive-rebase
+  match: ^\s*e(?:dit)?\b
+- comment: Exec keyword
+  name: keyword.exec.git-interactive-rebase
+  match: ^\s*(?:x|exec)\b
+- comment: SHA1s
+  name: constant.numeric.sha.git-interactive-rebase
+  match: \b[0-9a-f]{4,40}\b
+- comment: Comments
+  name: comment.line.git-interactive-rebase
+  match: ^\s*#.*$

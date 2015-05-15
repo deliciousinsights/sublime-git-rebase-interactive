@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>git-rebase-todo</string>
+	</array>
+	<key>name</key>
+	<string>Git Interactive Rebase</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>comment</key>
+			<string>Pick keyword</string>
+			<key>match</key>
+			<string>^\s*p(?:ick)?\b</string>
+			<key>name</key>
+			<string>keyword.pick.git-interactive-rebase</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Fixup keyword</string>
+			<key>match</key>
+			<string>^\s*f(?:ixup)?\b</string>
+			<key>name</key>
+			<string>keyword.fixup.git-interactive-rebase</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Squash keyword</string>
+			<key>match</key>
+			<string>^\s*s(?:quash)?\b</string>
+			<key>name</key>
+			<string>keyword.squash.git-interactive-rebase</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Reword keyword</string>
+			<key>match</key>
+			<string>^\s*r(?:eword)?\b</string>
+			<key>name</key>
+			<string>keyword.reword.git-interactive-rebase</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Edit keyword</string>
+			<key>match</key>
+			<string>^\s*e(?:dit)?\b</string>
+			<key>name</key>
+			<string>keyword.edit.git-interactive-rebase</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Exec keyword</string>
+			<key>match</key>
+			<string>^\s*(?:x|exec)\b</string>
+			<key>name</key>
+			<string>keyword.exec.git-interactive-rebase</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>SHA1s</string>
+			<key>match</key>
+			<string>\b[0-9a-f]{4,40}\b</string>
+			<key>name</key>
+			<string>constant.numeric.sha.git-interactive-rebase</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Comments</string>
+			<key>match</key>
+			<string>^\s*#.*$</string>
+			<key>name</key>
+			<string>comment.line.git-interactive-rebase</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.git-interactive-rebase</string>
+	<key>uuid</key>
+	<string>f72acbdd-ae83-42dc-ac34-4c7173f3d6e8</string>
+</dict>
+</plist>

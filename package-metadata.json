@@ -1,0 +1,8 @@
+{
+  "description": "Syntax highlighting for Git interactive rebase scripts",
+  "url": "https://github.com/deliciousinsights/sublime-git-rebase-interactive",
+  "platforms": ["*"],
+  "version": "1.0.0",
+  "sublime_text": "*",
+  "dependencies": []
+}
